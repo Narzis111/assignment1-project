@@ -18,7 +18,7 @@ padding-top: 150px;
     background-image: url('../images/BannerImage.png');
     background-repeat: no-repeat;
     background-position: auto;
-    width: ;
+  
     height: 600px;
     border-radius: 16px;
     text-align: center;
@@ -98,6 +98,92 @@ margin-top: 48px;
 
 
 }
+.portfolio-img{
+    display:flexbox;
+    justify-content: space-between;
 
+}
+.port-pic{
+    width: 340px;
+    height: 320px;
+}
+.portfolio-title h6{
+    color: #F00;
+font-family: Inter;
+font-size: 24px;
+font-weight: 500;
+margin-bottom: 0px;
+}
+.portfolio-title h3{
+    color: #070211;
+font-family: Merriweather;
+font-size: 48px;
+font-weight: 900;
+text-transform: capitalize;
+margin: 0;
+}
+.portfolio-title p{
+    color: rgba(7, 2, 17, 0.60);
+font-family: Inter;
+font-size: 20px;
+font-weight: 400;
+}
+
+/* ========subscribe starts */
+.form-subscribe{
+    width: 300px;
+height: 60px;
+border-radius: 50px 0px 0px 50px ;
+border: 0;
+font-family: Inter;
+font-size: 18px;
+font-weight: 400;
+text-align: center;
+}
+.subscribe-form{
+    display: flex;
+    justify-content: start;
+    margin-left: 250px;
+    
+}
+
+.btn-subscribe{
+    width: 210px;
+height: 65px;
+
+border-radius: 0px 50px 50px 0px;
+background: #F00;
+text-align: center;
+margin-bottom: 80px;
+color: #FFF;
+font-family: Inter;
+font-size: 20px;
+font-weight: 600;
+
+
+}
+.subscribe{
+    
+background-color: rgba(255, 0, 0, 0.05);
+margin-top: 50px;
+text-align: center;
+
+}
+
+.subscribe img{
+    margin-top: 65px;
+    width: 100px;
+height: 100px;
+}
+/* foot starts */
+footer{
+height: 550px;
+background: #070211;
+color:white;
+}
+.offer-container{
+    display: flex;
+    justify-content: space-between;
+}
 
 
