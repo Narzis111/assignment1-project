@@ -1,28 +1,103 @@
 body{
-    font-family: 'Merriweather', serif, 'Inter', sans-serif;;
+    font-family: 'Merriweather', serif, 'Inter', sans-serif;
 }
-.text-primary{
-    color:white;
+header, main{
+    margin: 50px 140px;
+}
+h5{
+    color: #FFF;
+text-align: center;
+font-family: Merriweather;
+font-size: 32px;
+font-weight: 400;
+padding-top: 150px;
+    
 }
 
-h1{font-family: 'Merriweather', serif;
-}
-
-/* header section */
-.header{
-    /* background-color: #FFF8F3; */
-    background-image: url('../images/Banner\ Image.png');
+.banner{
+    background-image: url('../images/BannerImage.png');
     background-repeat: no-repeat;
     background-position: auto;
+    width: ;
+    height: 600px;
+    border-radius: 16px;
+    text-align: center;
+    color: white ;
 }
-.banner{
-    padding: 30px 30px 0px 150px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+.banner-head{   
+    font-size: 72px;
+    font-family: 'Merriweather', serif;
+    font-weight: 900;
+    line-height: 95px;
 }
-.header{
-    background-image: url('../images/Banner\ Image.png');
-    background-position: cover;
+main section{
+    margin-top: 30px;
+}
+/*  ===========offer section============ */
+.offer-container{
+    font-family: Inter;
+    text-align: center;
+  
+}
+.offer-head{
+    color: #F00;
+font-size: 88px;
+font-weight: 700;
+margin-bottom: 20px;
+}
+.offer-holiday{
+    color: #F00;
+font-size: 24px;
+font-weight: 500;
+}
+.offer-all{
+    color: #070211;
+font-size: 48px;
+font-weight: 700;
+margin: 5px;
+}
+/* =========welcome section========== */
+.welcome{
+    background-image: url('../images/Vectorrr.png');
+    width: auto;
+    height: 600px;
     background-repeat: no-repeat;
+    background-position: auto;
+ 
+    
 }
+.welcome-container{
+    padding-left: 125px;
+    padding-top: 80px;
+    text-align: left;
+}
+.welcome-head{
+    font-family: Merriweather;
+    font-size: 64px;
+    font-weight: 900;
+    margin-bottom: 0px;
+    color: white;
+}
+.welcome-text{
+    color: rgba(255, 255, 255, 0.80);
+    padding-top: 5px;
+font-family: Inter;
+font-size: 18px;
+font-weight: 400;
+}
+.btn-welcome{
+font-family: Inter;
+font-size: 20px;
+font-weight: 700;
+margin-left: 32px;
+margin-top: 48px;
+    background: none;
+    border: 0;
+    color: white;
+    text-transform: uppercase;
+
+
+}
+
+
+
