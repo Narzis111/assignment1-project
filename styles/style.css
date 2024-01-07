@@ -1,96 +1,124 @@
-body{
-    font-family: 'Merriweather', serif, 'Inter', sans-serif;
-}
-header, main{
+body {
+    font-family: 'Merriweather', serif;
+    font-family: 'Inter', sans-serif;
+
+header,
+main {
     margin: 50px 140px;
 }
-h5{
+
+h5 {
     color: #FFF;
-text-align: center;
-font-family: Merriweather;
-font-size: 32px;
-font-weight: 400;
-padding-top: 150px;
-    
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 32px;
+    font-weight: 400;
+    padding-top: 150px;
+
 }
 
-.banner{
+.banner {
     background-image: url('../images/BannerImage.png');
     background-repeat: no-repeat;
     background-position: auto;
-  
+
     height: 600px;
     border-radius: 16px;
     text-align: center;
-    color: white ;
+    color: white;
 }
-.banner-head{   
+
+.banner-head {
     font-size: 72px;
     font-family: 'Merriweather', serif;
     font-weight: 900;
     line-height: 95px;
 }
-main section{
+
+main section {
     margin-top: 30px;
 }
+
 /*  ===========offer section============ */
-.offer-container{
+.offer-container {
     font-family: Inter;
     text-align: center;
-  
 }
-.offer-head{
+.offer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.offer-head {
     color: #F00;
-font-size: 88px;
-font-weight: 700;
-margin-bottom: 20px;
+    font-size: 88px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    
 }
-.offer-holiday{
+
+.offer-holiday {
     color: #F00;
-font-size: 24px;
-font-weight: 500;
+    font-size: 24px;
+    font-weight: 500;
+    
 }
-.offer-all{
+
+.offer-all {
+    text-align: center;
     color: #070211;
-font-size: 48px;
-font-weight: 700;
-margin: 5px;
+    font-size: 48px;
+    font-weight: 700;
+    margin: 5px;
+   
 }
+.offer-container img {
+    width: 802.9px;
+height: 500px;
+    
+}
+
+
+
 /* =========welcome section========== */
-.welcome{
+.welcome {
     background-image: url('../images/Vectorrr.png');
     width: auto;
     height: 600px;
     background-repeat: no-repeat;
     background-position: auto;
- 
-    
+
+
 }
-.welcome-container{
+
+.welcome-container {
     padding-left: 125px;
     padding-top: 80px;
     text-align: left;
 }
-.welcome-head{
+
+.welcome-head {
     font-family: Merriweather;
     font-size: 64px;
     font-weight: 900;
     margin-bottom: 0px;
     color: white;
 }
-.welcome-text{
+
+.welcome-text {
     color: rgba(255, 255, 255, 0.80);
     padding-top: 5px;
-font-family: Inter;
-font-size: 18px;
-font-weight: 400;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
 }
-.btn-welcome{
-font-family: Inter;
-font-size: 20px;
-font-weight: 700;
-margin-left: 32px;
-margin-top: 48px;
+
+.btn-welcome {
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    margin-left: 32px;
+    margin-top: 48px;
     background: none;
     border: 0;
     color: white;
@@ -98,92 +126,139 @@ margin-top: 48px;
 
 
 }
-.portfolio-img{
-    display:flexbox;
+
+/* ============portfolio starts */
+
+.portfolio-img {
+    display: flexbox;
     justify-content: space-between;
 
-}
-.port-pic{
-    width: 340px;
-    height: 320px;
-}
-.portfolio-title h6{
-    color: #F00;
-font-family: Inter;
-font-size: 24px;
-font-weight: 500;
-margin-bottom: 0px;
-}
-.portfolio-title h3{
-    color: #070211;
-font-family: Merriweather;
-font-size: 48px;
-font-weight: 900;
-text-transform: capitalize;
-margin: 0;
-}
-.portfolio-title p{
-    color: rgba(7, 2, 17, 0.60);
-font-family: Inter;
-font-size: 20px;
-font-weight: 400;
+
 }
 
-/* ========subscribe starts */
-.form-subscribe{
-    width: 300px;
-height: 60px;
-border-radius: 50px 0px 0px 50px ;
-border: 0;
-font-family: Inter;
-font-size: 18px;
-font-weight: 400;
-text-align: center;
+.port-pic {
+    width: 340px;
+height: 440px;
 }
-.subscribe-form{
+.port-pic:hover{
+    transform: scale(1.1, 1.1);
+    
+}
+
+.portfolio-title h6 {
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 0px;
+}
+
+.portfolio-title h3 {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: capitalize;
+    margin: 0;
+}
+
+.portfolio-title p {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+/* ========subscribe starts=============== */
+.form-subscribe {
+    width: 300px;
+    height: 60px;
+    border-radius: 50px 0px 0px 50px;
+    border: 0;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.subscribe-form {
     display: flex;
     justify-content: start;
     margin-left: 250px;
-    
+
 }
 
-.btn-subscribe{
+.btn-subscribe {
     width: 210px;
-height: 65px;
+    height: 65px;
 
-border-radius: 0px 50px 50px 0px;
-background: #F00;
-text-align: center;
-margin-bottom: 80px;
-color: #FFF;
-font-family: Inter;
-font-size: 20px;
-font-weight: 600;
+    border-radius: 0px 50px 50px 0px;
+    background: #F00;
+    text-align: center;
+    margin-bottom: 80px;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
 
-
-}
-.subscribe{
-    
-background-color: rgba(255, 0, 0, 0.05);
-margin-top: 50px;
-text-align: center;
 
 }
 
-.subscribe img{
+.subscribe {
+
+    background-color: rgba(255, 0, 0, 0.05);
+    margin-top: 50px;
+    text-align: center;
+
+}
+
+.subscribe img {
     margin-top: 65px;
     width: 100px;
-height: 100px;
+    height: 100px;
 }
-/* foot starts */
-footer{
-height: 550px;
-background: #070211;
-color:white;
+
+/* ================foot starts */
+footer {
+    height: 250px;
+    background: #070211;
+    color: white;
+    padding: 120px 140px;
 }
-.offer-container{
+.footer-line{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.website img{
+  width: 24px;
+height: 24px;  
+}
+.website-column{
+    display: flex;
+    
+}
+.website{
+    padding-right: 150px;
+    
+}
+
+
+
+.foot {
     display: flex;
     justify-content: space-between;
 }
-
-
+.social-icons{
+    text-align: center;
+}
+.social-icons img{
+    width: 64px;
+height: 64px;
+padding-top: 20px;
+padding-bottom:20px;
+text-align: center;
+}
+hr{
+   
+}
