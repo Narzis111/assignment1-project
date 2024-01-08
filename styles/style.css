@@ -1,10 +1,25 @@
 body {
     font-family: 'Merriweather', serif;
     font-family: 'Inter', sans-serif;
+}
 
-header,
-main {
+*/ {
+    margin: 0;
+    padding: 0;
+}
+
+header,main {
     margin: 50px 140px;
+}
+
+.banner {
+    background-repeat: no-repeat;
+    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../images/BannerImage.png');
+    height: 500px;
+    border-radius: 16px;
+    text-align: center;
+    background-size: cover;
+    color: white;
 }
 
 h5 {
@@ -17,16 +32,6 @@ h5 {
 
 }
 
-.banner {
-    background-image: url('../images/BannerImage.png');
-    background-repeat: no-repeat;
-    background-position: auto;
-
-    height: 600px;
-    border-radius: 16px;
-    text-align: center;
-    color: white;
-}
 
 .banner-head {
     font-size: 72px;
@@ -44,24 +49,20 @@ main section {
     font-family: Inter;
     text-align: center;
 }
-.offer {
-    display: flex;
-    justify-content: space-between;
-}
 
 .offer-head {
     color: #F00;
     font-size: 88px;
     font-weight: 700;
     margin-bottom: 20px;
-    
+
 }
 
 .offer-holiday {
     color: #F00;
     font-size: 24px;
     font-weight: 500;
-    
+
 }
 
 .offer-all {
@@ -70,26 +71,37 @@ main section {
     font-size: 48px;
     font-weight: 700;
     margin: 5px;
-   
+
 }
+
 .offer-container img {
-    width: 802.9px;
-height: 500px;
-    
+    width: 650px;
+    height: 400px;
+    margin-bottom: 60px;
+
 }
 
 
 
 /* =========welcome section========== */
 .welcome {
-    background-image: url('../images/Vectorrr.png');
-    width: auto;
-    height: 600px;
+    background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../images/Vectorrr.png');
     background-repeat: no-repeat;
-    background-position: auto;
-
+    height: 500px;
+    border-radius: 16px;
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
 
 }
+
+.website-pic img {
+
+    width: 20.83px;
+    height: 40.662px;
+    margin: 20px 5px 10px 0px;
+}
+
 
 .welcome-container {
     padding-left: 125px;
@@ -111,6 +123,7 @@ height: 500px;
     font-family: Inter;
     font-size: 18px;
     font-weight: 400;
+
 }
 
 .btn-welcome {
@@ -122,10 +135,102 @@ height: 500px;
     background: none;
     border: 0;
     color: white;
+    background: #F00;
     text-transform: uppercase;
+}
+
+/* ========hotel */
+.hotel-container {
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    min-height: 465px;
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 600;
+    text-align: center;
+    align-items: center;
+}
+
+.hotel-text {
+    color: #F00;
+}
+
+span {
+    color: #070211;
+}
+
+.btn-join {
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    border: none;
+    padding: 16px 32px;
+
+    border-radius: 8px;
+    background: #F00;
+}
+
+/* ====coming starts===== */
+.coming-now {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.coming-image img {
+    width: 200px;
+    height: 200px;
+    border-radius: 463px;
+    border: 15px solid #F00;
+    padding: 30px;
+}
+
+.coming-soon h6 {
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+/* =========holiday */
+.holiday-title {
+    text-align: center;
+
+}
+
+.image-container {
+    position: relative;
+    margin-top: 800px;
+
+}
+
+.img1 {
+    position: absolute;
+    bottom: 160px;
+    left: 0px;
+    height: 550px;
 
 
 }
+
+.img3 {
+    position: absolute;
+    bottom: 203px;
+    left: 722px;
+}
+
+.img2 {
+    position: absolute;
+    bottom: 280px;
+    left: 550px;
+
+}
+
+.img4 {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}
+
+
 
 /* ============portfolio starts */
 
@@ -138,11 +243,11 @@ height: 500px;
 
 .port-pic {
     width: 340px;
-height: 440px;
+    height: 440px;
 }
-.port-pic:hover{
+
+.port-pic:hover {
     transform: scale(1.1, 1.1);
-    
 }
 
 .portfolio-title h6 {
@@ -191,7 +296,7 @@ height: 440px;
 .btn-subscribe {
     width: 210px;
     height: 65px;
-
+border: 1px solid#F00;
     border-radius: 0px 50px 50px 0px;
     background: #F00;
     text-align: center;
@@ -225,22 +330,26 @@ footer {
     color: white;
     padding: 120px 140px;
 }
-.footer-line{
+
+.footer-line {
     display: flex;
     justify-content: space-between;
     margin-bottom: 20px;
 }
-.website img{
-  width: 24px;
-height: 24px;  
+
+.website img {
+    width: 24px;
+    height: 24px;
 }
-.website-column{
+
+.website-column {
     display: flex;
-    
+
 }
-.website{
+
+.website {
     padding-right: 150px;
-    
+
 }
 
 
@@ -249,16 +358,15 @@ height: 24px;
     display: flex;
     justify-content: space-between;
 }
-.social-icons{
+
+.social-icons {
     text-align: center;
 }
-.social-icons img{
+
+.social-icons img {
     width: 64px;
-height: 64px;
-padding-top: 20px;
-padding-bottom:20px;
-text-align: center;
-}
-hr{
-   
+    height: 64px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
 }
